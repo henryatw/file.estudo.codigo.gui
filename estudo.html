@@ -378,8 +378,8 @@
 
 <!--Formulário de Contato-->
 
-<div id="mensagem"> <!--foi dado o nome id=para a mensagem-->
-
+<div id="mensagem" style = "font-size:50px"> <!--foi dado o nome id=para a mensagem-->
+</div>
 <form id="formularioContato">
 
 <div style="margin-top:80px"> 
@@ -483,7 +483,7 @@
   </form>
 
 </div>
-</div>
+
 <button type="submit" class="btn btn-primary" id="buttonaction">Sign in</button>
 </div>
 
@@ -507,7 +507,11 @@ var mensagem = document.getElementById("mensagem"); //pra enviar pra mensagem de
 
 botao.addEventListener('click', function(){
 formulario.style.display = "none";
+mensagem.style.fontSize = "50";
 mensagem.innerHTML = "Obrigado!";
+
+
+
 
 })// toda funcao tem um parametro e as acoes da funcao, se nao tiver () do parametro ela nao funciona 
 
